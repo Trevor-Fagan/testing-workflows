@@ -1,0 +1,7 @@
+name: Just testing some workflow stuff
+on: [push]
+jobs:
+  Testing-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hey this was triggered"

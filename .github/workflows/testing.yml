@@ -4,4 +4,4 @@ jobs:
   Testing-Github-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hey this was triggered"
+      - run: echo "Hey this is a NEW trigger"
